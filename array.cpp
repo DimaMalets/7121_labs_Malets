@@ -72,7 +72,7 @@ void composition(double arr[N], int last, int first, int n, int temp, int p,doub
 
 		}
 	}
-	if (temp == 1 && p <= 2)
+	if (temp == 1 && p < 2)
 	{
 		std::cout << "Composition error \n";
 	}
